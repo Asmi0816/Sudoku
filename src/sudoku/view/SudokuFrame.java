@@ -24,7 +24,7 @@ public class SudokuFrame extends JFrame
 		this.setContentPane(basePanel);
 		this.setTitle("A new game you never thought possible... Sudoku!");
 		this.setSize(new Dimension(1080, 800));
-		this.setResizable(false);
+		this.setResizable(true);
 		this.setVisible(true);
 	}
 }
