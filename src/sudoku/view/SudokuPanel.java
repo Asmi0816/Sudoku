@@ -37,7 +37,7 @@ public class SudokuPanel extends JPanel
 		this.add(holderPane);
 		JScrollPane scrollPane = new JScrollPane();
 		sudokuTable = new JTable(9, 9);
-	
+		
 	
 		
 		

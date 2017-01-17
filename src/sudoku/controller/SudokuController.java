@@ -8,6 +8,7 @@ public class SudokuController
 	public SudokuController()
 	{
 		gameTime = new Game();
+		
 	}
 	public void start()
 	{
