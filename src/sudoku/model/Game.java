@@ -11,10 +11,6 @@ public class Game
 	{
 		roundChoice = 0;
 		math();
-		if (roundChoice == 1)
-		{
-			
-		}
 	}
 	
 	public int math()
