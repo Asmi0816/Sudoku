@@ -3,6 +3,8 @@ package sudoku.view;
 
 import java.awt.Color;
 import javax.swing.*;
+import javax.swing.border.MatteBorder;
+
 import sudoku.controller.SudokuController;
 import java.awt.Dimension;
 import java.awt.event.*;
@@ -20,10 +22,11 @@ public class SudokuPanel extends JPanel
 		
 		this.baseController = baseController;
 		this.sudokuTable = new JTable(9, 9);
+		sudokuTable.setRowHeight(sudokuTable.getRowHeight() + 24);
 		this.baseLayout = new SpringLayout();
 		this.holderPane = new JScrollPane(sudokuTable);
 	
-		
+	
 		setupPanel();
 		setupLayout();
 		setupListeners();
@@ -38,16 +41,14 @@ public class SudokuPanel extends JPanel
 		this.add(holderPane);
 		
 		
-		
-	
-		
-		
 	}
 	
 	private void setupLayout()
 	{
 		
-	
+		sudokuTable.setBackground(Color.BLACK);
+		
+
 	}
 	
 	public void setupListeners()
