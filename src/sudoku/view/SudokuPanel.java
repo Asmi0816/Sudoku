@@ -19,8 +19,9 @@ public class SudokuPanel extends JPanel
 	{
 		
 		this.baseController = baseController;
+		this.sudokuTable = new JTable(9, 9);
 		this.baseLayout = new SpringLayout();
-		this.holderPane = new JScrollPane();
+		this.holderPane = new JScrollPane(sudokuTable);
 	
 		
 		setupPanel();
@@ -35,8 +36,8 @@ public class SudokuPanel extends JPanel
 		this.setLayout(baseLayout);
 		this.setBackground(Color.GRAY);
 		this.add(holderPane);
-		JScrollPane scrollPane = new JScrollPane();
-		sudokuTable = new JTable(9, 9);
+		
+		
 		
 	
 		
