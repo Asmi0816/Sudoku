@@ -1,6 +1,6 @@
 package sudoku.model;
 import java.util.ArrayList;
-
+import sudoku.view.SudokuPanel;
 
 public class Game
 {
@@ -11,6 +11,10 @@ public class Game
 	{
 		roundChoice = 0;
 		math();
+		if (roundChoice == 1)
+		{
+			
+		}
 	}
 	
 	public int math()
