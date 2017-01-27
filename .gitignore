@@ -24,7 +24,7 @@ $RECYCLE.BIN/
 # OSX
 # =========================
 .DS_Store
-XCUSERDATA
+xcuserdata
 bin/
 
 .DS_Store
